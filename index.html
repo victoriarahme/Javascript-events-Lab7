@@ -35,6 +35,24 @@
         
     
     </form>
+ <!--focus and blur events-->   
+    <h2>Focus Event</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" onfocus="handleFocus();">
+
+    <h2>Blur Event</h2>
+    <label for="weightInput">Enter your weight in lbs:</label>
+    <input type="text" id="weightInput" onblur="validateWeight()">
+    
+    <h2>Event delegation</h2>
+    <div id="box">
+        <button>Button 1</button>
+        <button>Button 2</button>
+        <button>Button 3</button>
+        <button>Button 4</button>
+
+
+    </div>
     
 </body>
 </html>
