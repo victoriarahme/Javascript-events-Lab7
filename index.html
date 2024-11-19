@@ -8,17 +8,19 @@
     
 </head>
 <body>
-    <h1>Introduction to event types in Javascript</h1>
+    <h1>Javascript: Introduction to event types</h1>
     <!--Mouse event-->
-    <h2>Mouse enter and mouse leave events</h2>
-    <button id="hoverDiv">Hover your mouse here</button>
+    <h2>Mouse enter and leave event:</h2>
+    <button id="hoverDiv">Hover your mouse here</button> <br><br>
 <!--using key down event-->
+<br>
     <h2>Keyboard Event</h2>
-    <p id="output">Press any key and it will output in console</p>
-    <input type="text" id="pressKey" placeholder="Press any key to display key down event!"/>
+    <p id="output"></p>
+    <input type="text" id="pressKey" placeholder="Press any key to display key down event!"/> <br><br>
     
 
 <!---using form event-->
+<br>
     <h2>Student form Event</h2>
     <form id="myForm">
     <label for="fullName">Full name:</label>
@@ -26,23 +28,23 @@
     
     <label for="enrollmentStatus">Enrollment status:</label>
         <select id="enrollmentStatus" name="Enrollment status">
-            <option value="fulltimeenrollment">Full time enrollment</option>
-            <option value="parttimeenrollment">Part time enrollment</option>
-            <option value="notenrolled">Not enrolled</option>
+            <option value="full time enrollment">Full time enrollment</option>
+            <option value="part time enrollment">Part time enrollment</option>
+            <option value="not enrolled">Not enrolled</option>
 
            
-        </select>
-        <button type="submit">Submit</button>
+        </select> <br><br>
+        <button type="submit">Submit</button> <br><br>
     
     </form>
  <!--focus and blur events-->   
     <h2>Focus Event</h2>
     <label for="username">Username:</label>
-    <input type="text" id="username" onfocus="handleFocus();">
+    <input type="text" id="username"> <br><br>
 
     <h2>Blur Event</h2>
     <label for="weightInput">Enter your weight in lbs:</label>
-    <input type="text" id="weightInput" onblur="validateWeight()">
+    <input type="text" id="weightInput" onblur="validateWeight()"> <br><br>
     
     <h2>Event delegation</h2>
     <div id="box">
